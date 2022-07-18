@@ -45,13 +45,14 @@ ul {
     display: flex;
     justify-content: center;
     padding: 2rem;
+    flex-wrap: wrap;
 }
 
 .residents-group {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .title-info {
@@ -256,5 +257,9 @@ ul {
     .suggestions ul li {
         padding: 1rem;
         font-weight: 700;
+    }
+
+    .residents-group {
+        justify-content: space-between;
     }
 }
